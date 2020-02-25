@@ -4,7 +4,6 @@ import AboutMe from './components/AboutMe'
 import Portfolio from './components/Portfolio/Portfolio'
 import {Route} from 'react-router-dom'
 import {BrowserRouter} from 'react-router-dom' 
-// import Collection from './components/Portfolio/Collection'
 import CollectionView from './components/Portfolio/CollectionView'
 import Contact from './components/Contact'
 import Home from './components/Home'
@@ -29,9 +28,6 @@ class App extends React.Component {
   return (
     <BrowserRouter>
     <div className="App">
-      {/* <header>
-        <NavBar />
-      </header> */}
       <main>
       {this.renderPortfolioRoutes()}
       </main>
