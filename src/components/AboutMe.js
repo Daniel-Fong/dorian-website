@@ -11,7 +11,7 @@ class AboutMe extends React.Component {
                 <h1 className='dorian-h1'>Dorian Krausz</h1>
                 <p>Artist and Engineer</p>
                 <div className='about-me-inline-container'>
-                <img className='aboutMe-img' src='../img/aboutMe/yellow-hat.jpg' alt='Dorian in a Yellow Hat'></img>
+                <img className='aboutMe-img' src='https://i.imgur.com/YxTlHwf.jpg' alt='Dorian in a Yellow Hat'></img>
                 <p className='image-p'>
                     My <strong>mother</strong> wove <strong>art</strong> into my life before I was potty trained.
                 </p>
@@ -26,13 +26,13 @@ class AboutMe extends React.Component {
                 <p className='image-p'>
                     I also found <strong>rock climbing</strong>
                 </p>
-                <img className='aboutMe-img' src='../img/aboutMe/dor-and-dan.jpg' alt='Dorian in a Yellow Hat'></img>
+                <img className='aboutMe-img' src='https://i.imgur.com/thHfOiI.jpg' alt='Dorian and Daniel in the Buttermilks'></img>
                 </div>
                 <p className='body-p right'>
                 (and my love of Korean BBQ). I took a deeper dive into Structural Engineering during my <strong>Masters</strong> program at <strong>UC Berkeley</strong>, where I completed a thesis on how to isolate a building from the ground motions created by a large earthquake (something called "Base Isolation"!). After graduating in 2017, my boyfriend and I took off for the mountains and <strong>settled</strong> in <strong>Denver, Colorado</strong>, where I began a position at a <strong>structural engineering consulting</strong> company. After 3 years now, my heart experiences an old long-distance love of Northern California's wine country, and new
                 </p>
                 <div className='about-me-inline-container'>
-                <img className='aboutMe-img' src='../img/aboutMe/maroon-bells.jpg' alt='Dorian in a Yellow Hat'></img>
+                <img className='aboutMe-img' src='https://i.imgur.com/9ZvkFT9.jpg' alt='Dorian at the Maroon Bells'></img>
                 <p className='image-p'>
                      infatuation with Colorado's wildflowers and vibrant fall colors. 
                 </p>
@@ -44,7 +44,7 @@ class AboutMe extends React.Component {
                 <p className='image-p'>
                      you may find me rock climbing, 
                 </p>
-                <img className='aboutMe-img' src='../img/aboutMe/via-ferrata.jpg' alt='Telluride Via Ferrata'></img>
+                <img className='aboutMe-img' src='https://i.imgur.com/iw1zdRm.jpg' alt='Telluride Via Ferrata'></img>
                 </div>
                 <p className='body-p left'>
                 tap dancing, snowboarding, baking, or yes...doing <strong>drawing or painting</strong>. I have <strong>bursts</strong> of <strong>artistic expression</strong> throughout the year, oftentimes concentrated around holidays or weeks off from work. I have been <strong>craving</strong> a larger slice of <strong>art in my life</strong>, and hope that this year I can make it happen. 

@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-import NavBar from './components/NavBar'
 import AboutMe from './components/AboutMe'
 import Portfolio from './components/Portfolio/Portfolio'
 import {Route} from 'react-router-dom'

@@ -34,7 +34,7 @@ class PieceView extends React.Component {
                     <p>Year: {piece.year}</p>
                     <p>Medium: {piece.medium}</p>
                 </section>
-                <img className='pieceview-img' src={`../${piece.image}`} alt={piece.name}></img>
+                <img className='pieceview-img' src={`${piece.image}`} alt={piece.name}></img>
                 <button type='button' className='back-button mobile-back-button' onClick={(e) => {
                     e.preventDefault();
                     this.props.history.goBack();
