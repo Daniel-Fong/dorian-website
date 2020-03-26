@@ -7,7 +7,7 @@ class Collection extends React.Component {
         return(
             <li className='collection-div'>
                 <h2>{this.props.collection.name}</h2>
-                <Link to={`/portfolio/collections/${collectionName}`} onClick={() => this.props.handleCollectionClick(collectionName)} >
+                <Link to={`/portfolio/collections/${collectionName}`} >
                     <img 
                         className='collection-img' 
                         alt={this.props.collection.name} 

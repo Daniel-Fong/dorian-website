@@ -15,7 +15,6 @@ class PieceView extends React.Component {
             <portfolioContext.Consumer>
                 {value => {
                     const piece = value.pieces.find(piece => piece.name === this.props.match.params.pieceName)
-                    console.log(piece.image);
                     return (
             <div className='piece-view-div'>
                 <section className='pieceView-sidebar'>

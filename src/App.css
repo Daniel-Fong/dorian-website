@@ -351,6 +351,9 @@ p {
   }
   .mobile-portfolio-display p {
     margin-top: -.5em;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .portfolio-div, .collection-view-div {
     display: block;
@@ -413,8 +416,10 @@ p {
   .collection-img, .piece-img {
     width: 90%;
   }
-
   .collections-pieces-ul li {
     margin-top: 0;
+  }
+  .aboutMe header {
+    margin-left: -1em;
   }
 }

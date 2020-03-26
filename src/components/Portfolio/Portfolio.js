@@ -13,13 +13,13 @@ class Portfolio extends React.Component {
             },
             {
                 name: 'Breadth',
-                description: "During my junior year of highschool, I created my first AP Art Portfolio. I choose to explore the faces of age across friends and family members, studying the differences between the skin of a new baby's face, and that of my grandfather. I choose my favorite mediums for this study - pencil and charcoal.",
+                description: "This collection is a bit of a hodge-podge; works range from quick sketches with crayon, to more in-depth self-portrait studies or long term oil paintings. Throughout my childhood, I would visit my grandmother's etching studio, and do small copper plate etchings (see the Bahamas series from 2008). This medium is particularly exciting, because you cannot erase any strokes you make on the copper film - what's done, is done. Other pieces in this portfolio include oil and chalk pastels, and their interaction with watercolor. I will continue to add to this album as I am inspired to try to mediums, or simply draw something out of the blue!",
                 image: 'https://i.imgur.com/TEBuiMq.png', 
             },
             {   
                 name: 'Age',
-                description: "This collection is a bit of a hodge-podge; works range from quick sketches with crayon, to more in-depth self-portrait studies or long term oil paintings. Throughout my childhood, I would visit my grandmother's etching studio, and do small copper plate etchings (see the Bahamas series from 2008). This medium is particularly exciting, because you cannot erase any strokes you make on the copper film - what's done, is done. Other pieces in this portfolio include oil and chalk pastels, and their interaction with watercolor. I will continue to add to this album as I am inspired to try to mediums, or simply draw something out of the blue!",
-                image: 'https://i.imgur.com/kiJR9qm.jpg', 
+                description: "During my junior year of highschool, I created my first AP Art Portfolio. I choose to explore the faces of age across friends and family members, studying the differences between the skin of a new baby's face, and that of my grandfather. I choose my favorite mediums for this study - pencil and charcoal.",
+                image: 'https://i.imgur.com/hY0uIbI.jpg', 
             },
            
             {   
@@ -140,6 +140,30 @@ class Portfolio extends React.Component {
                 medium: 'Pencil',
                 collection: 'Animals',
                 image: 'https://i.imgur.com/p9DdVCE.jpg'                
+            },
+            {
+                name: 'Marmalade 1',
+                year: 2017,
+                description: "It's Marmalade",
+                medium: 'Pencil',
+                collection: 'Animals',
+                image: 'https://i.imgur.com/UvKvli1.jpg'                
+            },
+            {
+                name: 'Marmalade 2',
+                year: 2015,
+                description: "It's a fat boy.",
+                medium: 'Pencil',
+                collection: 'Animals',
+                image: 'https://i.imgur.com/O7PG5hU.jpg'                
+            },
+            {
+                name: 'Stallion',
+                year: 2018,
+                description: "It's a herse.",
+                medium: 'Pencil',
+                collection: 'Animals',
+                image: 'https://i.imgur.com/LGMJgVq.jpg'                
             },
             {
                 name: 'Christopher',
@@ -405,6 +429,38 @@ class Portfolio extends React.Component {
                 image: 'https://i.imgur.com/97EpPIT.jpg'                
             },
             {
+                name: 'Beach House',
+                year: 2017,
+                description: "Breadth images",
+                medium: 'Colored Pencil',
+                collection: 'Breadth',
+                image: 'https://i.imgur.com/BYTGLA1.jpg'                
+            },
+            {
+                name: 'Christmas Bear',
+                year: 2017,
+                description: "Breadth images",
+                medium: 'Colored Pencil',
+                collection: 'Breadth',
+                image: 'https://i.imgur.com/864yJeI.jpg'                
+            },
+            {
+                name: 'Rocklands',
+                year: 2016,
+                description: "Breadth images",
+                medium: 'Colored Pencil',
+                collection: 'Breadth',
+                image: 'https://i.imgur.com/ybbaEx9.jpg'                
+            },
+            {
+                name: 'Twins',
+                year: 2017,
+                description: "Breadth images",
+                medium: 'Pencil',
+                collection: 'Breadth',
+                image: 'https://i.imgur.com/TPdyfI9.jpg'                
+            },
+            {
                 name: 'Company Mural 1',
                 year: 2018,
                 description: "Logo and Graphic Design",
@@ -591,22 +647,12 @@ class Portfolio extends React.Component {
         ],
     }
 
-    
-
-    handleCollectionClick = (collectionName) => {
-        this.setState({
-            selectedCollection: {collectionName}
-        });
-    };
-
     render () {
         
         const contextValue = {
             collections: this.state.collections,
             pieces: this.state.pieces,
-            // handlePieceClick: this.handlePieceClick(),
         }
-        console.log(contextValue);
         return (
             <portfolioContext.Provider value={contextValue}>
             <div className='portfolio-div'>
@@ -621,11 +667,11 @@ class Portfolio extends React.Component {
                 <section className='mobile-portfolio-display'>
                     <h1 className='portfolio-h1'>Dorian Krausz</h1>
                     <h2 id='portfolio-h2'>Portfolio</h2>
-                    <p>I feel fat and sassy</p>
+                    <p>As I weave in and out of artistic expression, I’d like to use this website as a source of inspiration, and a home for pieces and collections I have completed in the past. It is also something I can share with friends, family, and colleagues, curious about the creative bursts that this engineer gets every once in a while.</p>
                 </section>
                 <section className ='portfolio-collections-list'>
                 <ul className='portfolio-ul'>
-                    {this.state.collections.map((collection) => <Collection handleCollectionClick={this.handleCollectionClick} key={collection.name} collection={collection}/>)}
+                    {this.state.collections.map((collection) => <Collection key={collection.name} collection={collection}/>)}
                 </ul>
                 </section>
             </div>

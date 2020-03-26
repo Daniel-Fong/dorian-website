@@ -15,7 +15,7 @@ const portfolioContext = React.createContext ({
         {   
             name: 'Age',
             description: "This collection is a bit of a hodge-podge; works range from quick sketches with crayon, to more in-depth self-portrait studies or long term oil paintings. Throughout my childhood, I would visit my grandmother's etching studio, and do small copper plate etchings (see the Bahamas series from 2008). This medium is particularly exciting, because you cannot erase any strokes you make on the copper film - what's done, is done. Other pieces in this portfolio include oil and chalk pastels, and their interaction with watercolor. I will continue to add to this album as I am inspired to try to mediums, or simply draw something out of the blue!",
-            image: 'https://i.imgur.com/kiJR9qm.jpg', 
+            image: 'https://i.imgur.com/hY0uIbI.jpg', 
         },
        
         {   
@@ -136,6 +136,30 @@ const portfolioContext = React.createContext ({
             medium: 'Pencil',
             collection: 'Animals',
             image: 'https://i.imgur.com/p9DdVCE.jpg'                
+        },
+        {
+            name: 'Marmalade 1',
+            year: 2017,
+            description: "It's Marmalade",
+            medium: 'Pencil',
+            collection: 'Animals',
+            image: 'https://i.imgur.com/UvKvli1.jpg'                
+        },
+        {
+            name: 'Marmalade 2',
+            year: 2015,
+            description: "It's a fat boy.",
+            medium: 'Pencil',
+            collection: 'Animals',
+            image: 'https://i.imgur.com/O7PG5hU.jpg'                
+        },
+        {
+            name: 'Stallion',
+            year: 2018,
+            description: "It's a herse.",
+            medium: 'Pencil',
+            collection: 'Animals',
+            image: 'https://i.imgur.com/LGMJgVq.jpg'                
         },
         {
             name: 'Christopher',
@@ -399,6 +423,38 @@ const portfolioContext = React.createContext ({
             medium: 'Oil Pastel',
             collection: 'Breadth',
             image: 'https://i.imgur.com/97EpPIT.jpg'                
+        },
+        {
+            name: 'Beach House',
+            year: 2017,
+            description: "Breadth images",
+            medium: 'Colored Pencil',
+            collection: 'Breadth',
+            image: 'https://i.imgur.com/BYTGLA1.jpg'                
+        },
+        {
+            name: 'Christmas Bear',
+            year: 2017,
+            description: "Breadth images",
+            medium: 'Colored Pencil',
+            collection: 'Breadth',
+            image: 'https://i.imgur.com/864yJeI.jpg'                
+        },
+        {
+            name: 'Rocklands',
+            year: 2016,
+            description: "Breadth images",
+            medium: 'Colored Pencil',
+            collection: 'Breadth',
+            image: 'https://i.imgur.com/ybbaEx9.jpg'                
+        },
+        {
+            name: 'Twins',
+            year: 2017,
+            description: "Breadth images",
+            medium: 'Pencil',
+            collection: 'Breadth',
+            image: 'https://i.imgur.com/TPdyfI9.jpg'                
         },
         {
             name: 'Company Mural 1',
